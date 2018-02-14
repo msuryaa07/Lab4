@@ -73,8 +73,15 @@ public class Colosseum {
      */
     public static Pokemon buildPokemon() {
         Pokemon tempPokemon = new Pokemon();
+        myScan = new Pokemon(){
+            while (MAX_HIT_POINTS = 50){
+
+            }
+        }
         return tempPokemon;
     }
+
+
 
     /**
      * Prints who is ahead.
@@ -93,6 +100,10 @@ public class Colosseum {
         System.out.println("Implement me!");
     }
 
+
+
+
+
     /**
      * Prints out the overall winner of the battle.
      * <p>
@@ -103,6 +114,10 @@ public class Colosseum {
     public static void determineWinner() {
         System.out.println("Implement me!");
     }
+
+
+
+
 
     /**
      * Initializes the member Pokemons.
